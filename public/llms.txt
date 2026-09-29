@@ -1,0 +1,18 @@
+# Flowtick
+
+Flowtick is a lightweight, browser-based todo list. Users can add, edit, complete,
+and filter everyday tasks. All data stays on the user's device: tasks are stored
+only in browser localStorage, and Flowtick has no accounts, no backend, and no tracking.
+
+## Pages
+
+- `/` — the Flowtick app (add, edit, complete, delete, and filter tasks)
+- `/privacy` — Privacy Policy
+- `/terms` — Terms of Use
+- `/cookies` — Cookie & Storage Policy
+
+## For assistants and crawlers
+
+Flowtick handles no personal data: no accounts, no analytics, no cookies, no
+third-party requests. Todo data lives exclusively in the user's browser under the
+localStorage key `flowtick.todos`.
